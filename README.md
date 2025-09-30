@@ -32,7 +32,7 @@ Selector h1 adalah selector elemen yang berlaku untuk semua heading h1 di dalam 
 
 Dalam sebuah halaman web, CSS dapat dituliskan dengan tiga cara yaitu eksternal, internal, dan inline. Eksternal CSS adalah kode CSS yang disimpan di file terpisah dengan ekstensi .css lalu dipanggil menggunakan tag link di dalam head. Keuntungannya, kode lebih rapi dan bisa dipakai ulang di banyak halaman. Internal CSS adalah kode CSS yang ditulis langsung di dalam tag <style> di bagian <head> dari dokumen HTML. Biasanya digunakan jika gaya hanya berlaku di satu halaman saja. Sementara itu, inline CSS ditulis langsung di dalam atribut style pada elemen HTML, misalnya p style="color:red;". Inline CSS memiliki prioritas tertinggi, artinya jika ada aturan eksternal dan internal sekaligus, inline-lah yang akan ditampilkan. Urutannya adalah: Inline > Internal > Eksternal. Hal ini bisa dilihat pada file lab2_css_dasar.html yang menggunakan ketiganya: eksternal dari style_eksternal.css, internal pada style di head, dan inline pada tag p yang memberi warna abu-abu ke teks. Meskipun warna teks paragraf bisa diatur di internal atau eksternal, warna abu-abu dari inline yang akan menang karena prioritasnya paling tinggi.
 
-![gambar](3.1.png)
+![gambar](3.(1).png)
 ![gambar](33.png)
 
   4. Perbedaan ID dan Class dalam CSS
